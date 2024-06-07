@@ -1,0 +1,112 @@
+html{
+    background-color: #181818;
+}
+
+
+header{
+    background-color: rgb(49, 49, 49);
+    padding: 1px;
+
+    border: 2px solid darkgrey;
+    border-radius: 8px;
+    
+    text-align: center;
+}
+
+
+body{
+    background-color: rgb(59, 59, 59);
+    margin: 32px;
+
+    color:gainsboro;
+
+    padding: 2% 5%;
+
+    font-size: 20px;
+}
+
+body h3{
+    background-color: rgb(85, 85, 85);
+    padding: 20px;
+    margin-top: 0;
+
+    text-align: center;
+
+    border: 2px solid darkgrey;
+    border-radius: 8px;
+}
+
+body hr{
+    padding: 0;
+    margin: 8px;
+}
+
+body p{
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+a:active{
+    color: cadetblue;
+}
+
+a:visited{
+    color:darkgrey;
+}
+
+
+.code{
+    color: whitesmoke;
+    background-color: rgb(48, 48, 48);
+
+    max-width: 100%;
+    margin-bottom: 16px;
+
+    border: 2px solid #181818;
+    border-radius: 8px;
+}
+
+.code p{
+    padding: 4px 10%;
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+
+
+.img-shadow{
+    box-shadow: 2px 2px 12px rgba(98,98,98,0.75);
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table{
+    background-color: #181818;
+    width: 100%;
+    text-align: center;
+}
+
+.table td{
+    background-color: #252525;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color:darkgray
+}
+
+.table tr:nth-child(odd) td{
+    background-color: #454545;
+}
